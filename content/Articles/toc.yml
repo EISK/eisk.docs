@@ -1,8 +1,0 @@
-﻿- name: Articles1 (tab)
-  href: set1/article-1-1.md
-- name: Articles2 (tab)
-  href: set2/article-2-1.md
-  items:
-  - name: Articles2-2 
-  href: set2/article-2-2.md
-  
