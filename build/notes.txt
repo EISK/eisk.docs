@@ -1,0 +1,64 @@
+========================================================
+Build Instructions
+========================================================
+
+# Download DocFx Command-line tool
+
+https://github.com/dotnet/docfx/releases
+
+Extract to current folder (build).
+
+# Build and Run
+
+## Build + Serve: 
+.\docfx\docfx.exe ..\content\docfx.json -o "." --serve
+
+## Build Only:
+Built files will be stored in _site folder in the current directoru
+.\docfx\docfx.exe build "./../content/docfx.json" -o "." 
+
+## Serve:
+Site to be served at: http://localhost:8080
+.\docfx\docfx.exe serve .\_site
+
+========================================================
+Doc Structure
+========================================================
+- eisk.io 
+	* single repo for site + docs, enables sharing common contents across modules
+	* contains content and rendered pages, in different branch
+	
+	- / index page only
+
+	- /eisk
+		* site contents, can be moved to separate repo as needed
+		* /eisk/why-eisk
+		
+	- /docs 
+		* in future may contain home page
+		* can be moved to separate repo as needed
+	
+	- /docs/eisk (default module)
+		- /docs/{default module?}/{latest?}/getting-started
+		- /docs/eisk/{latest?}/getting-started
+
+	- /docs/webapi
+		* in future may contain home page for WebAPI
+		* in future may have sub-module webapi under docs sub-module 
+		* will need to load sub-modules partially as needed under eisk.io, sub-module repo should be renamed as docs-webapi but should be downloaded as webapi)
+		* /docs/webapi/latest/getting-started
+		* /docs/webapi/v1/getting-started (archived)
+
+- eisk.io/shared-site-resources
+	* initially can be sub-folder which can be moved to separate repo
+	
+	- /assets
+		* contains common header and footer where applicable
+	
+	- /contents
+		* contains common contents
+
+- eisk.io/blog (separate repo to contain blog)
+
+========================================================
+
