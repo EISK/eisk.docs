@@ -1,5 +1,5 @@
 ---
-uid: eisk-webapi-get-started
+uid: eisk-webapi-get-index
 ---
 # Getting Started with EISK Web Api
 
