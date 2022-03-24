@@ -1,1 +1,4 @@
 /content/obj
+/build/_site
+/build/docfx
+/.vs
