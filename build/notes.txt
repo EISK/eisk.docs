@@ -62,3 +62,11 @@ Doc Structure
 
 ========================================================
 
+DONE * Finalize repo structure for docs
+* Check version archive support in docfx
+* Fix home page image issue
+* Place web api home page and content under eisk.webapi/io sub-folder?
+* Add blog site
+========================================================
+
+
