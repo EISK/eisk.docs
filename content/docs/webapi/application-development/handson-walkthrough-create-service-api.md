@@ -18,7 +18,7 @@ To start developing a new web api, you'll need the following or upper version of
 
 ## Step 2: Download EISK Web Api
 
-You can download EISK with variety of [options and choices](xref:eisk-webapi-download-options). 
+You can download EISK with variety of [options and choices](xref:eisk-webapi-downloads). 
 
 If you're familiar with [git](https://git-scm.com/) (and installed in your local machine) you can perform a git clone with the following git bash command to get latest EISK Web Api code sample.
 

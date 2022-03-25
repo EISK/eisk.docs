@@ -1,5 +1,5 @@
 ---
-uid: eisk-webapi-download-options
+uid: eisk-webapi-downloads
 ---
 # EISK Web Api Download options
 
