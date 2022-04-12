@@ -1,5 +1,5 @@
 ---
-title: Welcome to the EISK Web Api docs website (V9)!
+title: Welcome to the EISK Web Api docs website!
 description: Employee Info Starter Kit is an open source project, that provides project templates intended to address different types of real world challenges faced by web application developers.
 documentType: index
 ---
@@ -7,7 +7,7 @@ documentType: index
 <div class="hero">
   <div class="wrap">
     <h1 class="text">
-      <strong>EISK</strong>
+      <strong>EISK V9</strong>
     </h1>
     <div class="minitext">
         Code samples and utilities to kick start developing web api with .net core.
