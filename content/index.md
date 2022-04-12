@@ -13,7 +13,7 @@ documentType: index
         Code samples and utilities to kick start developing web api with .net core.
     </div>
     <div class="buttons-unit">
-      <a href="/eisk.webapi/docs/get-started/index.html" class="button"><i class="glyphicon glyphicon-send"></i>Get Started</a>
+      <a href="docs/get-started/index.html" class="button"><i class="glyphicon glyphicon-send"></i>Get Started</a>
     </div>
   </div>
 </div>
@@ -25,7 +25,7 @@ documentType: index
         <section>
           <h2>Build Web Api with .NET Core</h2>
           <p class="lead">EISK lets you creating new web api straight away without wide technical experience or learning curve - by providing an optional set of reusable utility classes, sample use cases and tools.</p>
-          <div class="lead"><a href="/eisk.webapi/docs/get-started/what-is-eisk.html">What is EISK?</a></div>
+          <div class="lead"><a href="docs/get-started/what-is-eisk.html">What is EISK?</a></div>
         </section>
       </div>
     </div>
