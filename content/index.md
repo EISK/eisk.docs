@@ -35,7 +35,7 @@ documentType: index
   <div class="container">
     <div class="row">
       <div class="buttons-unit" style="padding-bottom:50px">
-        <a href="/eisk.webapi/docs/get-started" class="btn btn-primary" style="font-size:2em;display:inline;padding:15px"><i class="glyphicon glyphicon-send" style="font-size:1em;padding:0 20px 0 0"></i>Get Started</a>
+        <a href="docs/get-started" class="btn btn-primary" style="font-size:2em;display:inline;padding:15px"><i class="glyphicon glyphicon-send" style="font-size:1em;padding:0 20px 0 0"></i>Get Started</a>
       </div>
     </div>
   </div>
