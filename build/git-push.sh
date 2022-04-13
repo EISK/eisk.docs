@@ -1,4 +1,4 @@
-ContentTargetGitAddress=${1:-https://github.com/EISK/eisk.webapi.git}
+ContentTargetGitAddress=${1:-https://github.com/EISK/eisk.github.io.git}
 ContentTargetGitUserName=${2:-}
 ContentTargetGitUserEmail=${3:-}
 
