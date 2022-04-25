@@ -6,7 +6,7 @@ uid: eisk-webapi-technology-stack
 
 ## Programming Language
 
-* C# 7.0
+* C# 10.0
 
 ### C# Features
 
@@ -19,7 +19,7 @@ uid: eisk-webapi-technology-stack
 
 ## Web Application Framework
 
-* ASP.NET Core 2.0
+* ASP.NET 6.0
 
 ### ASP.NET Features
 
@@ -35,18 +35,10 @@ uid: eisk-webapi-technology-stack
 
 * Entity Framework Core
 * Entity Framework Core (in-memory)
-* RestSharp
-
-### Logging
-
-* Liblog
-* log4net
-* JSON extension for log4net
 
 ### Utilities
 
 * Json parser: Newtonsoft.Json
-* Data mapping: AutoMapper
 
 ### Testing 
 
@@ -58,7 +50,7 @@ uid: eisk-webapi-technology-stack
 
 ### Editors
 
-* Visual Studio 2017 (Community Edition)
+* Visual Studio 2022 (Community Edition)
 	- Plugin: Resharper
 	- Plugin: Resharper: xunit Test Support
 	- Plugin: dotPeek (decompiler)
@@ -106,7 +98,7 @@ uid: eisk-webapi-technology-stack
 
 ### Development
 
-* .NET Core 2.0
+* .NET 6.0
 
 ### Hosting Servers
 
