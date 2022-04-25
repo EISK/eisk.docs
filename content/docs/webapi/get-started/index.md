@@ -13,8 +13,6 @@ With an optional set of customizable utility classes, samples and tools, it lets
 
 If you like or are using this project to learn or start your solution, please give it a [star](https://github.com/EISK/eisk.webapi). Thanks!
 
-![eisk web api](https://github.com/EISK/eisk/blob/master/eisk-webapi-small.png)
-
 ## Sample Use Case
 
 Using a simple table entity 'Employee' it demonstrates all aspect of web development including layered architecture following DDD, micro service, unit and integration tests, building and deploying in cloud environment. 
