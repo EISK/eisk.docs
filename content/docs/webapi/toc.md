@@ -6,11 +6,7 @@
 ##[git](xref:eisk-webapi-download-options-git)
 ##[dotnet CLI](@eisk-webapi-download-options-dotnet-new)
 
-# Hands-on Walk-through
-##[Create Service Api](xref:eisk-webapi-handson-walkthrough-create-service-api)
+#[Hands-on Walk-through](xref:eisk-webapi-handson-walkthrough-create-service-api)
+#[Architecture](@eisk-webapi-logical-layers)
 
-#Architecture
-##@eisk-webapi-logical-layers
-
-#Support
-##@eisk-get-recognized
+#[Support](@eisk-support-index)
