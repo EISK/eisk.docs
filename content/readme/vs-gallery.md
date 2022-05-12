@@ -48,7 +48,7 @@ The template includes (but not limited to), project structure and all utility cl
 
 4) **Create New Project from Template:** Once you click to select the template, "Configure your new project" window wil appearch. Give a project name, which will also be used as the root namespace of your project (for instance: Eisk). Then click "Create".
 
-5) **Open and Run the Created Project:** After your projects is created and loaded in Visual Studio as solution, locate the web api project from the solution (it will be named as <the project name you provided>.WebApi, example: Eisk.WebApi). Right click the project, and from the context menu, select "Set as Startup Project". Simply hit "Ctrl + F5" from your keyboard. You will see Visual Studio will load EISK Web API in your browser!
+5) **Open and Run the Created Project:** After your project is created and loaded in Visual Studio as solution, locate the web api project from the solution (it will be named as <the project name you provided>.WebApi, example: Eisk.WebApi). Right click the project, and from the context menu, select "Set as Startup Project". Simply hit "Ctrl + F5" from your keyboard. You will see Visual Studio will load EISK Web API in your browser!
 
 That's it!
 
