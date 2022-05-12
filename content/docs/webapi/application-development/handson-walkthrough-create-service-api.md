@@ -14,7 +14,7 @@ This article assumes you've basic understanding with Object Oriented Programming
 
 To start developing a new web api, you'll need the following or upper version of Visual Studio. If you've not installed it yet, you can get a free copy of Visual Studio Community Edition from it's download site (link provided below). 
 
-* Visual Studio 2017 ([Free](https://visualstudio.microsoft.com/vs/community/) Community Edition or higher)
+* Visual Studio 2022 ([Free](https://visualstudio.microsoft.com/vs/community/) Community Edition or higher)
 
 ## Step 2: Download EISK Web Api
 
