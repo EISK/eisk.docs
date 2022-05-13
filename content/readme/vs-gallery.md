@@ -40,11 +40,11 @@ The template includes (but not limited to), project structure and all utility cl
 
 ## QuickStart Guide
 
-1) **Download:** Download the Visual Studio Extension from Visual Studio Gallery or from [Github Release](https://github.com/EISK/eisk.webapi/releases). 
+1) **Download:** Download the Visual Studio Extension from [Visual Studio Gallery](https://marketplace.visualstudio.com/items?itemName=AshrafulAlam.Eisk) or from [Github Release](https://github.com/EISK/eisk.webapi/releases). 
 
 2) **Install:** Once downloaded simply click the VSIX file, which will install the extension in your Visual Studio instance.
 
-3) **Open Visual Sudio and Find the Template:** After the installation is complete, open your visal studio and follow the steps below: From Visual Sutio menu, click *File -> New -> Project**. In the "Create a new project" window, go to the "Search for templates" textbox and type "eisk". You'll find "Eisk Web Api" in the search result. Simply click the item.
+3) **Open Visual Sudio and Find the Template:** After the installation is complete, open your visal studio and follow the steps below: From Visual Sutio menu, click *File -> New -> Project*. In the "Create a new project" window, go to the "Search for templates" textbox and type "eisk". You'll find "Eisk Web Api" in the search result. Simply click the item.
 
 4) **Create New Project from Template:** Once you click to select the template, "Configure your new project" window wil appearch. Give a project name, which will also be used as the root namespace of your project (for instance: Eisk). Then click "Create".
 

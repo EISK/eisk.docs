@@ -29,7 +29,7 @@ uid: eisk-webapi-technology-stack
 
 ### Dependency Injection
 
-* .NET Core (built-in)
+* .NET (built-in)
 
 ### Data Access
 
