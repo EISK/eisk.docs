@@ -5,6 +5,8 @@ uid: eisk-webapi-download-options-dotnet-new
 
 [dotnet cli](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new) is comes with latest Visual Studio and  provides excellent command line options to create, build, test, deploy .net core application easily.
 
+[![NuGet Badge](https://buildstats.info/nuget/Eisk.WebApi)](https://www.nuget.org/packages/Eisk.WebApi/)
+
 ## Install
 
 Installing this template in your local machine will allow you creating as many web api projects with EISK as you want. 
