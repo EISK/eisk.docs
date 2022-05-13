@@ -15,7 +15,7 @@ After the cloning, locate the .sln file from the local repository and click it t
 
 ## Running the Project
 
-1) Locate the web api project from the solution (it will be named as `the project name you provided`.WebApi, example: Eisk.WebApi). 
+1) Locate the web api project from the solution (i.e. Eisk.WebApi). 
 2) Right click the project, and from the context menu, select "Set as Startup Project". 
 3) Simply hit "Ctrl + F5" from your keyboard. You will see Visual Studio will load EISK Web API in your browser!
 
