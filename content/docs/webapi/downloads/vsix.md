@@ -18,3 +18,5 @@ You can install EISK as part of Visual Studio and create as many instances of pr
 5) **Open and Run the Created Project:** Locate the web api project from the solution (it will be named as <the project name you provided>.WebApi, example: Eisk.WebApi). Right click the project, and from the context menu, select "Set as Startup Project". Simply hit "Ctrl + F5" from your keyboard. You will see Visual Studio will load EISK Web API in your browser!
 
 Congrats! You've EISK loaded in your Visual Studio! Enjoy exploring the code and make changes as you want.
+
+Check the [here](xref:eisk-webapi-handson-walkthrough-create-service-api) to get hands on on experience with EISK Web Api. 
