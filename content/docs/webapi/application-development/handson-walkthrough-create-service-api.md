@@ -115,12 +115,16 @@ Add a new class as provided below on the following solution location:
 
 	[ApiController]
 	[Route("[controller]")]
-	public class EmployeesController : WebApiControllerBase<Employee, int>
+	public class EmployeeTimeSheetsController
+		:WebApiControllerBase<EmployeeTimeSheet,int>
 	{
-	    public EmployeesController(EmployeeDomainService employeeDomainService) : base(employeeDomainService)
-	    {
-
-	    }
+		public EmployeeTimeSheetsController(
+			DomainService<EmployeeTimeSheet, int> 
+				employeeTimeSheetDomainService)
+					:base(employeeTimeSheetDomainService)
+		{
+			
+		}
 	}
 
 ### Build & Run Locally 
