@@ -47,7 +47,7 @@ The Swagger UI enables accessing the "Employees" api different http verbs (get, 
 
 Invoke the 'Get' call as available in the first options, by considering the following steps:
 
-`Get (/api/Empliyees) -> Try it out -> Execute`
+`Get (/api/Employees) -> Try it out -> Execute`
 
 A json response will be shown under "Server response" section with all employees as available in database.
 
