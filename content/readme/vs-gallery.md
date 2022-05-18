@@ -1,11 +1,3 @@
----
-uid: eisk-webapi-get-started
----
-
-[![NuGet Badge](https://buildstats.info/nuget/Eisk.WebApi)](https://www.nuget.org/packages/Eisk.WebApi/)   [![Build status](https://dev.azure.com/EiskOps/Eisk/_apis/build/status/Eisk-WebApi-TemplatePack-CI)](https://dev.azure.com/EiskOps/Eisk/_build/latest?definitionId=3)
-
-# Getting Started with EISK Web Api
-
 EISK makes it easy to write scalable and secured web api on top of Microsoft's new cutting edge .net based technologies. 
 
 With an optional set of customizable utility classes, samples and tools, it lets you creating new web api straight away without wide technical experience or learning curve.
@@ -48,24 +40,17 @@ The template includes (but not limited to), project structure and all utility cl
 
 ## QuickStart Guide
 
-Before installing EISK, all you need to have the following Visual Studio version installed.
+1) **Download:** Download the Visual Studio Extension from [Visual Studio Gallery](https://marketplace.visualstudio.com/items?itemName=AshrafulAlam.Eisk) or from [Github Release](https://github.com/EISK/eisk.webapi/releases). 
 
-* Visual Studio 2022 ([Free](https://visualstudio.microsoft.com/vs/community/) Community Edition or higher)
+2) **Install:** Once downloaded simply click the VSIX file, which will install the extension in your Visual Studio instance.
 
-Getting started with EISK Web Api is pretty easy. 
+3) **Open Visual Sudio and Find the Template:** After the installation is complete, open your visal studio and follow the steps below: From Visual Sutio menu, click *File -> New -> Project*. In the "Create a new project" window, go to the "Search for templates" textbox and type "eisk". You'll find "Eisk Web Api" in the search result. Simply click the item.
 
-You can either [clone](https://github.com/EISK/eisk.webapi.git) from github or simply run the following `dotnet new` command in command prompt to create a new project from EISK:
+4) **Create New Project from Template:** Once you click to select the template, "Configure your new project" window wil appearch. Give a project name, which will also be used as the root namespace of your project (for instance: Eisk). Then click "Create".
 
-* Command to install EISK template in your machine: `dotnet new --install Eisk.WebApi`
-* Command to create a new project: `dotnet new eiskwebapi -n Eisk`
-
-Once the contents are available, just open the created solution, select "Eisk.WebApi" as startup project and press F5!
+5) **Open and Run the Created Project:** After your project is created and loaded in Visual Studio as solution, locate the web api project from the solution (it will be named as <the project name you provided>.WebApi, example: Eisk.WebApi). Right click the project, and from the context menu, select "Set as Startup Project". Simply hit "Ctrl + F5" from your keyboard. You will see Visual Studio will load EISK Web API in your browser!
 
 That's it!
-
-### How About Older Versions?
-
-If you want to continue using one of the older versions of EISK, check the [releases](https://github.com/EISK/eisk.webapi/releases) page for specific instructions to install and use older versions of EISK.
 
 ## What's Next?
 
@@ -83,3 +68,6 @@ Utilities and code samples as provided in EISK have intentionally been designed 
 ## Questions?
 
 Should you have any questions or need any help to implement new cool features, you can [ask](https://stackoverflow.com/questions/ask?tags=eisk,webapi,asp.net-core&title=In%20EISK,%20How%20Do%20We%20..) in StackOverflow community with tag [eisk](https://stackoverflow.com/questions/tagged/eisk) and get prompt response.
+
+[![NuGet Badge](https://buildstats.info/nuget/Eisk.WebApi)](https://www.nuget.org/packages/Eisk.WebApi/)   [![Build status](https://dev.azure.com/EiskOps/Eisk/_apis/build/status/Eisk-WebApi-TemplatePack-CI)](https://dev.azure.com/EiskOps/Eisk/_build/latest?definitionId=3)
+

@@ -14,7 +14,7 @@ This article assumes you've basic understanding with Object Oriented Programming
 
 To start developing a new web api, you'll need the following or upper version of Visual Studio. If you've not installed it yet, you can get a free copy of Visual Studio Community Edition from it's download site (link provided below). 
 
-* Visual Studio 2017 ([Free](https://visualstudio.microsoft.com/vs/community/) Community Edition or higher)
+* Visual Studio 2022 ([Free](https://visualstudio.microsoft.com/vs/community/) Community Edition or higher)
 
 ## Step 2: Download EISK Web Api
 
@@ -106,28 +106,26 @@ Add a new class as provided below on the following solution location:
 
 `New file location: Controllers\EmployeeTimeSheetsController.cs`
 
+	using Eisk.Core.WebApi;
+	using Eisk.Domains.Entities;
+	using Eisk.DomainServices;
 	using Microsoft.AspNetCore.Mvc;
 
-	namespace Eisk.WebApi.Controllers
-	{
-		using Core.DomainService;
-		using Domains.Entities;
-		using Eisk.Core.WebApi;
+	namespace Eisk.WebApi.Controllers;
 
-		[Route("api/[controller]")]
-		public class EmployeeTimeSheetsController
-			:WebApiControllerBase<EmployeeTimeSheet,int>
+	[ApiController]
+	[Route("[controller]")]
+	public class EmployeeTimeSheetsController
+		:WebApiControllerBase<EmployeeTimeSheet,int>
+	{
+		public EmployeeTimeSheetsController(
+			DomainService<EmployeeTimeSheet, int> 
+				employeeTimeSheetDomainService)
+					:base(employeeTimeSheetDomainService)
 		{
-			public EmployeeTimeSheetsController(
-				DomainService<EmployeeTimeSheet, int> 
-					employeeTimeSheetDomainService)
-						:base(employeeTimeSheetDomainService)
-			{
-				
-			}
+			
 		}
 	}
-
 
 ### Build & Run Locally 
 

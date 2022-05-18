@@ -19,10 +19,10 @@ uid: eisk-webapi-logical-layers
  * Accessible via HTTP Basic authentication
  * Depends on Service Layer 
 
+![alt tag](~/art/docs/layers-architecture.png)    
+
 ### API Client
  * Provides a mechanism to access restful api as exposed by API Controller.
  * Provides the security mechanism to access secured services as exposed by API Controllers.
  * Depends on API Controller (via Restful interface) 
-
-![alt tag](~/art/docs/layers-architecture.png)    
 

@@ -5,8 +5,9 @@ uid: eisk-webapi-downloads
 
 You can download, install and/or create EISK with variety of options and choices. 
 
-* [dotnet CLI](xref:eisk-webapi-download-options-dotnet-new)
-* Visual Studio Extensions
 * [git](xref:eisk-webapi-download-options-git)
-* Github Release
+* [dotnet CLI](xref:eisk-webapi-download-options-dotnet-new)
+* [Visual Studio Extension](xref:eisk-webapi-download-options-visx)
+
+
 
