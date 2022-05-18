@@ -24,5 +24,5 @@ uid: eisk-webapi-logical-layers
  * Provides the security mechanism to access secured services as exposed by API Controllers.
  * Depends on API Controller (via Restful interface) 
 
-![alt tag](~/art/layers-architecture.png)    
+![alt tag](~/art/docs/layers-architecture.png)    
 
