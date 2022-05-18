@@ -2,7 +2,7 @@
 uid: eisk-webapi-get-started
 ---
 
-[![NuGet Badge](https://buildstats.info/nuget/Eisk.WebApi)](https://www.nuget.org/packages/Eisk.WebApi/)   [![Build status](https://dev.azure.com/EiskOps/Eisk/_apis/build/status/Eisk-WebApi-TemplatePack-CI)](https://dev.azure.com/EiskOps/Eisk/_build/latest?definitionId=3) [![BuitlWithDot.Net shield](https://builtwithdot.net/project/334/eisk/badge)](https://builtwithdot.net/project/334/eisk)
+[![NuGet Badge](https://buildstats.info/nuget/Eisk.WebApi)](https://www.nuget.org/packages/Eisk.WebApi/)   [![Build status](https://dev.azure.com/EiskOps/Eisk/_apis/build/status/Eisk-WebApi-TemplatePack-CI)](https://dev.azure.com/EiskOps/Eisk/_build/latest?definitionId=3)
 
 # Getting Started with EISK Web Api
 
