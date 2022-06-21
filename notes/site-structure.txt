@@ -1,27 +1,4 @@
 ========================================================
-Build Instructions
-========================================================
-
-# Download DocFx Command-line tool
-
-https://github.com/dotnet/docfx/releases
-
-Extract to current folder (build).
-
-# Build and Run
-
-## Build + Serve: 
-.\docfx\docfx.exe ..\content\docfx.json -o "." --serve
-
-## Build Only:
-Built files will be stored in _site folder in the current directoru
-.\docfx\docfx.exe build "./../content/docfx.json" -o "." 
-
-## Serve:
-Site to be served at: http://localhost:8080
-.\docfx\docfx.exe serve .\_site
-
-========================================================
 Doc Structure
 ========================================================
 - eisk.io 
@@ -59,16 +36,3 @@ Doc Structure
 		* contains common contents
 
 - eisk.io/blog (separate repo to contain blog)
-
-========================================================
-R * Doc content writing
-R * Point new doc under root
-
-* Check version archive support in docfx
-* Fix home page image issue
-* Place web api home page and content under eisk.webapi/io sub-folder?
-* Add blog site
-========================================================
-DONE * Finalize repo structure for docs
-========================================================
-
