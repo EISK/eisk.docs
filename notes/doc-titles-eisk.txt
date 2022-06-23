@@ -1,0 +1,19 @@
+=====================================================
+• What is EISK?
+	○ Template VS Framework
+	○ History
+	○ Contributing
+• Docs -> Web API
+• Blog
+=====================================================
+Site Tab
+	* EISK
+	* WebApi
+	* Blazor
+	* GraphQL
+
+Right Nav
+	* Source
+	* Blog
+
+=====================================================
