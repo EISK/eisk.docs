@@ -40,22 +40,22 @@ Doc Structure
 - eisk.io/blog (separate repo to contain blog)
 
 ========================================================
-Site Tabs (proposed)
+Site Tabs & Modules (proposed)
 ========================================================
 * Home (page)
 
 * EISK (tab)
 	* brief about the project
-	* tutorial on default sample  (Blazor + Web API + EFCore + SQL Server)
+	* tutorial on default sample module, Blazor + Web API + EFCore + SQL Server
 * Web (tab)
-	* Blazor (sub tab)
-	* React (sub tab)
-	* MVC (sub tab)
+	* Blazor (sub tab) - module
+	* React (sub tab) - module
+	* MVC (sub tab) - module
 * Web API (tab)	
-	* Web API (sub tab)
-	* GraphQL (sub tab)
-	* gRPC (sub tab)
+	* Web API (sub tab) - module
+	* GraphQL (sub tab) - module
+	* gRPC (sub tab) - module
 * Database (tab)
-	* SQL Server (sub tab)
-	* Cosmos DB (sub tab)
+	* SQL Server (sub tab) - module
+	* Cosmos DB (sub tab) - module
 	
