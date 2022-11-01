@@ -18,7 +18,8 @@ Doc Structure
 	- /docs/eisk (default module)
 		- /docs/{default module?}/{latest?}/getting-started
 		- /docs/eisk/{latest?}/getting-started
-
+		- /docs/eisk/v1/getting-started
+		
 	- /docs/webapi
 		* in future may contain home page for WebAPI
 		* in future may have sub-module webapi under docs sub-module 
