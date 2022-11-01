@@ -15,9 +15,10 @@ Doc Structure
 		* in future may contain home page
 		* can be moved to separate repo as needed
 	
+	- /docs/{module}/{version}/{page}
+	
 	- /docs/eisk (default module)
-		- /docs/{default module?}/{latest?}/getting-started
-		- /docs/eisk/{latest?}/getting-started
+		- /docs/eisk/{latest}/getting-started
 		- /docs/eisk/v1/getting-started
 		
 	- /docs/webapi
