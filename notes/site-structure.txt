@@ -47,8 +47,8 @@ Site Tabs (proposed)
 	* tutorial on default sample  (Blazor + Web API + EFCore + SQL Server)
 * Web (tab)
 	* Blazor (sub tab)
-	* React
-	* MVC
+	* React (sub tab)
+	* MVC (sub tab)
 * Web API (tab)	
 	* Web API (sub tab)
 	* GraphQL (sub tab)
